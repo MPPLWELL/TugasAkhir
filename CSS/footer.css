@@ -1,0 +1,68 @@
+/* Basic styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+}
